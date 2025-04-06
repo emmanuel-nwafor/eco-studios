@@ -1,5 +1,5 @@
 import React from 'react';
-import image from "../assets/image.jpg";
+import image from "../assets/moji-png2.png";
 import image2 from "../assets/colourful.png";
 import { ContainerTextFlip2 } from '../components/ui/container-text-flip2';
 // import { GlareCard } from '../components/ui/glare-card'
@@ -8,8 +8,8 @@ export default function About() {
   return (
     <>
       <div className="bg-black p-9 text-white">
-        <h1 className="text-white font-bold text-2xl m-1">About Me {"</>"}</h1>
-        <h1 className="text-white text-[27px] m-1">Strategies & Principles</h1>
+        <h1 className="text-white font-bold text-2xl m-2">About Me {"</>"}</h1>
+        <h1 className="text-white text-[27px] m-2">Strategies & Principles</h1>
 
 
         <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-2">
