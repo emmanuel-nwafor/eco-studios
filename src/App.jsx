@@ -9,6 +9,8 @@ import { FloatingNav } from './components/ui/floating-navbar'
 import { GridSmallBackgroundDemo } from './components/ui/GridSmallBackgroundDemo';
 import About from './my-components/About';
 import Services from './my-components/Services';
+// import Projects from './my-components/Projects';
+// import GridLayout from './my-components/GridLayout';
 // import { LampDemo } from './components/ui/lamp'
 
 const navItems = [
@@ -26,6 +28,9 @@ function App() {
           <GridSmallBackgroundDemo />
           <About />
           <Services />
+          <I
+          {/* <Projects /> */}
+          {/* <GridLayout /> */}
           
           {/* <LampDemo /> */}
           {/* <AnimatedTestimonials /> */}

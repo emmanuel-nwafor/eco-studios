@@ -8,7 +8,7 @@ export default function About() {
   return (
     <>
       <div className="bg-black p-9 text-white">
-        <h1 className="text-white font-bold text-2xl m-2">About Me {"</>"}</h1>
+        <h1 className="text-white font-bold text-2xl m-2">About Me <span className="text-blue-300">{"</>"}</span></h1>
         <h1 className="text-white text-[27px] m-2">Strategies & Principles</h1>
 
 
