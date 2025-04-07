@@ -3,6 +3,7 @@ import { GridSmallBackgroundDemo } from './components/ui/GridSmallBackgroundDemo
 import About from './my-components/About';
 import { Testimonials } from './my-components/Testimonials';
 import Services from './my-components/Services';
+import { PlaceholdersAndVanishInput } from './my-components/PlaceholdersAndVanishInput';
 // import { PinContainer } from './my-components/PinContainer';
 // import ContactBackgroundBeams from './my-components/ContactBackgroundBeams';
 
@@ -29,6 +30,7 @@ function App() {
           <About />
           <Services />
           <Testimonials items={movingCardsItems} direction="left" speed="normal" pauseOnHover={true} />
+          <PlaceholdersAndVanishInput />
           {/* <PinContainer /> */}
           {/* <ContactBackgroundBeams /> */}
         </div>
