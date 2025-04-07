@@ -18,12 +18,12 @@ export default function MyLanguagesTools() {
   return (
     <div className="p-10">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-semibold text-center mb-8 text-white">My Languages & Tools</h2>
+        <h2 className="text-3xl font-semibold text-center mb-8 text-gray-400">{"<?>"}My Languages & Tools {"<?>"}</h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           {tools.map((tool, index) => (
             <div
               key={index}
-              className="flex flex-col items-center p-6 bg-[#080808] rounded-3xl hover:bg-gray-800 transition duration-300"
+              className="flex flex-col items-center p-6 bg-[#080808] rounded-3xl hover:bg-gray-900 transition duration-300"
             >
               <i
                 className={`${tool.icon} text-5xl`}
