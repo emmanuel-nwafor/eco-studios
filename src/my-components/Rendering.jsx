@@ -6,6 +6,8 @@ import Services from './Services';
 import { Testimonials } from './Testimonials';
 import Projects from './Projects';
 import { ContactPage } from './ContactPage';
+import Footer from './Footer';
+import MyLanguagesTools from './MyLanguagesTools';
 
 // Temp nav contents
 const navItems = [
@@ -31,7 +33,9 @@ export default function Rendering() {
       <Services />
       <Testimonials items={movingCardsItems} direction="left" speed="normal" pauseOnHover={true} />
        <Projects />
+       <MyLanguagesTools />
        <ContactPage />
+       <Footer />
     </>
   )
 }
