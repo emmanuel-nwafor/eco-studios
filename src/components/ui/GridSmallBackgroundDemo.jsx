@@ -20,7 +20,17 @@ export function GridSmallBackgroundDemo() {
           <h1 className="relative text-cente p-10 z-20 bg-gradient-to-b from-neutral-200 to-neutral-500 bg-clip-text py-8 text-4xl font-bold text-transparent sm:text-5xl">
             I Build Experiences That Are <br />  <ContainerTextFlip />
           </h1>
-          <div className="ml-8"><HoverBorderGradient /></div>
+          <div className="ml-8">
+            <HoverBorderGradient
+              as="a"
+              href="https://www.linkedin.com/in/emmanuel-chinecherem-767739284/" // your actual profile
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Contact Me
+            </HoverBorderGradient>
+
+          </div>
         </div>
 
         <h1 className="text-gray-400 z-20 p-10">

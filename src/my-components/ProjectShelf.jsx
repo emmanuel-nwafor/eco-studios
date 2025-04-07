@@ -1,11 +1,20 @@
 import React from 'react';
 
+// Import images properly for Vite/CRA to bundle them
+import attendanceImg from '../assets/attendance.jpg';
+import bankingImg from '../assets/banking.jpg';
+import jobbieImg from '../assets/jobbie.jpg';
+import ottoSonsImg from '../assets/otto-sons.jpg';
+import tvhImg from '../assets/tvh.jpg';
+import laMadisonImg from '../assets/la-madison.jpg';
+import jejuImg from '../assets/jeju.jpg';
+
 const items = [
   {
     id: 1,
     title: 'Attendance App',
     link: 'https://attendance-system-sable.vercel.app/',
-    image: '/src/assets/attendance.jpg',
+    image: attendanceImg,
     description:
       'A facial recognition system for marking student attendance with Firebase support.',
     techStack: [
@@ -19,7 +28,7 @@ const items = [
     id: 2,
     title: 'Banking Finance App',
     link: 'https://banking-app-tawny-pi.vercel.app/',
-    image: '/src/assets/banking.jpg',
+    image: bankingImg,
     description:
       'A modern banking interface for handling transactions, savings, and user analytics.',
     techStack: [
@@ -33,7 +42,7 @@ const items = [
     id: 3,
     title: 'Jobbie',
     link: 'https://jobbie-six.vercel.app/',
-    image: '/src/assets/jobbie.jpg',
+    image: jobbieImg,
     description:
       'A job portal where recruiters post jobs and seekers apply with a simple interface.',
     techStack: [
@@ -47,7 +56,7 @@ const items = [
     id: 4,
     title: 'Otto-Sons',
     link: 'https://otto-sons-web-app.vercel.app/',
-    image: '/src/assets/otto-sons.jpg',
+    image: ottoSonsImg,
     description:
       'A car rental, repair, and selling web app using local storage for data persistence.',
     techStack: [
@@ -61,9 +70,9 @@ const items = [
     id: 5,
     title: 'TV Hub',
     link: 'https://tvh-woad.vercel.app/',
-    image: '/src/assets/tvh.jpg',
+    image: tvhImg,
     description:
-      'A simple but yet high performance website, where users can search for movies, view the casts and watch trailers of the movie searched.',
+      'A high-performance website where users can search movies, view cast, and watch trailers.',
     techStack: [
       { icon: 'bxl-html5', color: '#E44D26' },
       { icon: 'bxl-css3', color: '#1572B6' },
@@ -75,9 +84,9 @@ const items = [
     id: 6,
     title: 'La Madison Agency',
     link: 'https://emmanuel-nwafor.github.io/La-Madison-Agency/',
-    image: '/src/assets/la-madison.jpg',
+    image: laMadisonImg,
     description:
-      'A simple but yet high performance website, where users can search for movies, view the casts and watch trailers of the movie searched.',
+      'A modern agency site showcasing features, services, and client engagement tools.',
     techStack: [
       { icon: 'bxl-html5', color: '#E44D26' },
       { icon: 'bxl-css3', color: '#1572B6' },
@@ -89,9 +98,9 @@ const items = [
     id: 7,
     title: 'Jeju Store',
     link: 'https://emmanuel-nwafor.github.io/La-Madison-Agency/',
-    image: '/src/assets/jeju.jpg',
+    image: jejuImg,
     description:
-      'An e-commerce website for a store selling products, with a focus on user experience, perfomance and responsiveness.',
+      'An e-commerce website focusing on user experience, performance, and responsiveness.',
     techStack: [
       { icon: 'bxl-react', color: '#61DBFB' },
       { icon: 'bxl-css3', color: '#1572B6' },
