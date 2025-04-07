@@ -25,7 +25,7 @@ const movingCardsItems = [
 export default function Rendering() {
   return (
     <>
-    <FloatingNav navItems={navItems} />
+      <FloatingNav navItems={navItems} />
       <GridSmallBackgroundDemo />
       <About />
       <Services />

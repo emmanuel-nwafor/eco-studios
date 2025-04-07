@@ -60,7 +60,7 @@ const items = [
     {
       id: 5,
       title: 'TV Hub',
-      link: 'https://otto-sons-web-app.vercel.app/',
+      link: 'https://tvh-woad.vercel.app/',
       image: '/src/assets/tvh.png',
       description:
         'A simple but yet high performance website, where users can search for movies, view the casts and watch trailers of the movie searched.',
@@ -71,12 +71,40 @@ const items = [
         { icon: 'bxl-javascript', color: '#F0DB4F' },
       ],
     },
+    {
+      id: 6,
+      title: 'La Madison Agency',
+      link: 'https://emmanuel-nwafor.github.io/La-Madison-Agency/',
+      image: '/src/assets/la-madison.png',
+      description:
+        'A simple but yet high performance website, where users can search for movies, view the casts and watch trailers of the movie searched.',
+      techStack: [
+        { icon: 'bxl-html5', color: '#E44D26' },
+        { icon: 'bxl-css3', color: '#1572B6' }, 
+        { icon: 'bxl-tailwind-css', color: '#38BDF8' },
+        { icon: 'bxl-javascript', color: '#F0DB4F' },
+      ],
+    },
+    {
+      id: 7,
+      title: 'Jeju Store',
+      link: 'https://emmanuel-nwafor.github.io/La-Madison-Agency/',
+      image: '/src/assets/jeju.png',
+      description:
+        'An e-commerce website for a store selling products, with a focus on user experience, perfomance and responsiveness.',
+      techStack: [
+        { icon: 'bxl-react', color: '#61DBFB' },
+        { icon: 'bxl-css3', color: '#1572B6' }, 
+        { icon: 'bxl-tailwind-css', color: '#38BDF8' },
+        { icon: 'bxl-javascript', color: '#F0DB4F' },
+      ],
+    },
   ];
 
 const ProjectShelf = () => {
   return (
-    <div className="bg-black text-white py-12 px-4">
-      <h2 className="text-3xl font-bold mb-8 text-center">Project Shelf</h2>
+    <div className="bg-black text-white py-9">
+      <h2 className="text-3xl font-bold mb-8 text-center">{"<>"}Project Shelf{"</>"}</h2>
       <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 max-w-6xl mx-auto mt-8">
         {items.map((item) => (
           <a

@@ -5,3 +5,27 @@
 body {
     font-family: "poppins";
 }
+
+/* App.css */
+
+:root {
+    --deg: 1;
+    --x: -50%;
+    --y: -50%;
+    --speed: 150ms;
+  }
+  
+  @keyframes wobble {
+    to {
+      filter: hue-rotate(360deg);
+      transform: translate(var(--x), var(--y)) rotate(360deg);
+    }
+  };
+  
+  @layer utilities {
+    .animate-wobble {
+      animation: wobble calc(var(--speed) * var(--t)) linear infinite;
+      transform-origin: -var(--y) -var(--x);
+    }
+  }
+  
