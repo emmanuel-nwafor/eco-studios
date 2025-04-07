@@ -7,7 +7,7 @@ const items = [
     id: 1,
     title: 'Attendance App',
     link: 'https://attendance-system-sable.vercel.app/',
-    image: '/src/assets/attendance.png',
+    image: '/src/assets/attendance.jpg',
     description:
       'A facial recognition system for marking student attendance with Firebase support.',
     techStack: [
@@ -21,7 +21,7 @@ const items = [
     id: 2,
     title: 'Banking Finance App',
     link: 'https://banking-app-tawny-pi.vercel.app/',
-    image: '/src/assets/banking.png',
+    image: '/src/assets/banking.jpg',
     description:
       'A modern banking interface for handling transactions, savings, and user analytics.',
     techStack: [
@@ -35,7 +35,7 @@ const items = [
     id: 3,
     title: 'Jobbie',
     link: 'https://jobbie-six.vercel.app/',
-    image: '/src/assets/jobbie.png',
+    image: '/src/assets/jobbie.jpg',
     description:
       'A job portal where recruiters post jobs and seekers apply with a simple interface.',
     techStack: [
@@ -49,7 +49,7 @@ const items = [
     id: 4,
     title: 'Otto-Sons',
     link: 'https://otto-sons-web-app.vercel.app/',
-    image: '/src/assets/otto-sons.png',
+    image: '/src/assets/otto-sons.jpg',
     description:
       'A car rental, repair, and selling web app using local storage for data persistence.',
     techStack: [
