@@ -31,7 +31,7 @@ const services = [
 
 export default function Services() {
   return (
-    <section className="bg-black min-h-screen p-9">
+    <section className="bg-black p-9">
       <div className="max-w-7xl mx-auto">
         <h1 className="text-white font-bold text-2xl m-2">Services <span className="text-blue-300">{"{}"}</span></h1>
         <h2 className="text-white text-[27px] m-2">Readability & Efficiency</h2>

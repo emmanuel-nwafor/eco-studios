@@ -1,23 +1,21 @@
-// import { BentoGrid } from './components/ui/bento-grid';
-// import { ContainerScroll } from './components/ui/container-scroll-animation';
-// import { DirectionAwareHover } from './components/ui/direction-aware-hover';
-// import Height from './components/ui/Height'
-
-// import { Modal } from './components/ui/animated-modal';
-// import { AnimatedTestimonials } from './components/ui/animated-testimonials';
-import { FloatingNav } from './components/ui/floating-navbar'
+import { FloatingNav } from './components/ui/floating-navbar';
 import { GridSmallBackgroundDemo } from './components/ui/GridSmallBackgroundDemo';
-import { InfiniteMovingCards } from './components/ui/infinite-moving-cards';
 import About from './my-components/About';
+import { Testimonials } from './my-components/Testimonials';
 import Services from './my-components/Services';
-// import Projects from './my-components/Projects';
-// import GridLayout from './my-components/GridLayout';
-// import { LampDemo } from './components/ui/lamp'
+import StickyScroll from './components/ui/StickyScroll';
 
 const navItems = [
   { name: "Home", link: "#home", icon: "🏠" },
   { name: "About", link: "#about", icon: "ℹ️" },
   { name: "Projects", link: "#projects", icon: "💻" },
+];
+
+const movingCardsItems = [
+  { title: "Card 1", description: "Description for card 1", content: "Additional content for card 1" },
+  { title: "Card 2", description: "Description for card 2", content: "Additional content for card 2" },
+  { title: "Card 3", description: "Description for card 3", content: "Additional content for card 3" },
+  // Add more items as needed
 ];
 
 function App() {
@@ -29,21 +27,12 @@ function App() {
           <GridSmallBackgroundDemo />
           <About />
           <Services />
-          <InfiniteMovingCards />
-          {/* <Projects /> */}
-          {/* <GridLayout /> */}
-          
-          {/* <LampDemo /> */}
-          {/* <AnimatedTestimonials /> */}
-          {/* <Modal /> */}
-          {/* <ContainerScroll /> */}
-          {/* <DirectionAwareHover /> */}
-          {/* <Height /> */}
-          {/* <BentoGrid /> */}
+          <Testimonials items={movingCardsItems} direction="left" speed="normal" pauseOnHover={true} />
+          <StickyScroll content={movingCardsItems} contentClassName="custom-class" />
         </div>
       </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
