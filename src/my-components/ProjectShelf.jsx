@@ -8,6 +8,7 @@ import ottoSonsImg from '../assets/otto-sons.jpg';
 import tvhImg from '../assets/tvh.jpg';
 import laMadisonImg from '../assets/la-madison.jpg';
 import jejuImg from '../assets/jeju.jpg';
+import Footer from './Footer';
 
 const items = [
   {
@@ -146,6 +147,7 @@ const ProjectShelf = () => {
           </a>
         ))}
       </div>
+      <Footer />
     </div>
   );
 };
