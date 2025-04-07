@@ -7,7 +7,7 @@ const items = [
     id: 1,
     title: 'Attendance App',
     link: 'https://attendance-system-sable.vercel.app/',
-    image: '/src/assets/attendance.jpg',
+    image: '../assets/attendance.jpg',
     description:
       'A facial recognition system for marking student attendance with Firebase support.',
     techStack: [
