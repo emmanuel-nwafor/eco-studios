@@ -2,12 +2,18 @@ import React, { useState } from 'react';
 import { HoverBorderGradient2 } from '../components/ui/hover-border-gradient2';
 import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 
+import attendanceImg from '../assets/attendance.jpg';
+import bankingImg from '../assets/banking.jpg';
+import jobbieImg from '../assets/jobbie.jpg';
+import ottoSonsImg from '../assets/otto-sons.jpg';
+
+
 const items = [
   {
     id: 1,
     title: 'Attendance App',
     link: 'https://attendance-system-sable.vercel.app/',
-    image: '../assets/attendance.jpg',
+    image: attendanceImg,
     description:
       'A facial recognition system for marking student attendance with Firebase support.',
     techStack: [
@@ -21,7 +27,7 @@ const items = [
     id: 2,
     title: 'Banking Finance App',
     link: 'https://banking-app-tawny-pi.vercel.app/',
-    image: '/src/assets/banking.jpg',
+    image: bankingImg,
     description:
       'A modern banking interface for handling transactions, savings, and user analytics.',
     techStack: [
@@ -35,7 +41,7 @@ const items = [
     id: 3,
     title: 'Jobbie',
     link: 'https://jobbie-six.vercel.app/',
-    image: '/src/assets/jobbie.jpg',
+    image: jobbieImg,
     description:
       'A job portal where recruiters post jobs and seekers apply with a simple interface.',
     techStack: [
@@ -49,7 +55,7 @@ const items = [
     id: 4,
     title: 'Otto-Sons',
     link: 'https://otto-sons-web-app.vercel.app/',
-    image: '/src/assets/otto-sons.jpg',
+    image: ottoSonsImg,
     description:
       'A car rental, repair, and selling web app using local storage for data persistence.',
     techStack: [
@@ -60,6 +66,7 @@ const items = [
     ],
   },
 ];
+
 
 export default function Projects() {
   const [currentIndex, setCurrentIndex] = useState(0);
