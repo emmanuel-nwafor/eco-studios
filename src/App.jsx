@@ -7,6 +7,7 @@
 // import { AnimatedTestimonials } from './components/ui/animated-testimonials';
 import { FloatingNav } from './components/ui/floating-navbar'
 import { GridSmallBackgroundDemo } from './components/ui/GridSmallBackgroundDemo';
+import { InfiniteMovingCards } from './components/ui/infinite-moving-cards';
 import About from './my-components/About';
 import Services from './my-components/Services';
 // import Projects from './my-components/Projects';
@@ -28,7 +29,7 @@ function App() {
           <GridSmallBackgroundDemo />
           <About />
           <Services />
-          <I
+          <InfiniteMovingCards />
           {/* <Projects /> */}
           {/* <GridLayout /> */}
           
