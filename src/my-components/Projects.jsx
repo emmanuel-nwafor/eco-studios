@@ -73,7 +73,7 @@ export default function Projects() {
   };
 
   return (
-    <div className="bg-black text-white py-12 px-4">
+    <div className="bg-black text-white py-12 px-4" id="projects">
       <h2 className="text-3xl font-bold mb-8 text-center">My Projects</h2>
 
       {/* Carousel Section */}

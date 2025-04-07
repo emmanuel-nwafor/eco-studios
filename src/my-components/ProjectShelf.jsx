@@ -103,7 +103,7 @@ const items = [
 
 const ProjectShelf = () => {
   return (
-    <div className="bg-black text-white py-9">
+    <div className="bg-black text-white p-9">
       <h2 className="text-3xl font-bold mb-8 text-center">{"<>"}Project Shelf{"</>"}</h2>
       <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 max-w-6xl mx-auto mt-8">
         {items.map((item) => (

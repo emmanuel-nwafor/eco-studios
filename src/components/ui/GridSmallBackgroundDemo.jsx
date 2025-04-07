@@ -5,8 +5,7 @@ import { HoverBorderGradient } from "./hover-border-gradient";
 
 export function GridSmallBackgroundDemo() {
   return (
-    <div
-      className="relative flex h-[50rem] w-full items-center max-md:justify-center bg-white dark:bg-black">
+    <div id="home" className="relative flex h-[50rem] w-full items-center max-md:justify-center bg-white dark:bg-black">
       <div className={cn(
           "absolute inset-0",
           "[background-size:80px_80px]",
